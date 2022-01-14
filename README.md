@@ -23,7 +23,8 @@ Below, we compared the the two results- the original (with THS' 9th grade test s
     ![original_per_school_summary_df](https://user-images.githubusercontent.com/94569240/149582223-7e59226a-f52f-42a3-9a0d-46d4929c6059.PNG)
 
    - New School Summary 
-    ![new_per_school_summary_df](https://user-images.githubusercontent.com/94569240/149582232-c9b2fe6d-972b-4d28-9d7a-cdbfd0046870.PNG)
+    ![new_per_school_summary_df](https://user-images.githubusercontent.com/94569240/149582834-fcfdcc1b-48a0-433b-8920-be677af1b859.PNG)
+
 
     THS's scores and and percentages passing trend downwards ever so slightly again while the other schools' performacne remains unchanged.  This confirms that we can attribute the change in the district's performance to the changes made with THS.  
 
@@ -39,10 +40,12 @@ Below, we compared the the two results- the original (with THS' 9th grade test s
    - **Grade Level**
      Out of the 4 metrics we measure here (scores by grade level, by spending budgets, size, and school type), the omition of THS' 9th grade scores were most noticeable when we looked at the district's scores by grade level.  
     - Original Scores by Grade
-      ![original_math_scores_by_grade](https://user-images.githubusercontent.com/94569240/149582329-07220c57-29a4-486a-8c3a-080c16f80669.PNG)![original_reading_scores_by_grade](https://user-images.githubusercontent.com/94569240/149582339-7cfa30ce-45cb-4201-ad5a-9961c7eb3ee7.PNG)
+      ![original_math_scores_by_grade](https://user-images.githubusercontent.com/94569240/149582329-07220c57-29a4-486a-8c3a-080c16f80669.PNG)
+      ![original_reading_scores_by_grade](https://user-images.githubusercontent.com/94569240/149582339-7cfa30ce-45cb-4201-ad5a-9961c7eb3ee7.PNG)
 
     - New Scores by Grade
-     ![new_math_scores_by_grade](https://user-images.githubusercontent.com/94569240/149582359-b1ee5c05-b337-43e3-81ce-fdae273e6981.PNG)![new_reading_scores_by_grade](https://user-images.githubusercontent.com/94569240/149582377-c2ac4bf5-52ee-494a-97ea-f869abc35863.PNG)
+     ![new_math_scores_by_grade](https://user-images.githubusercontent.com/94569240/149582359-b1ee5c05-b337-43e3-81ce-fdae273e6981.PNG)
+     ![new_reading_scores_by_grade](https://user-images.githubusercontent.com/94569240/149582377-c2ac4bf5-52ee-494a-97ea-f869abc35863.PNG)
 
      As you can see above, where THS' 9th graders' average scores of 86.6 and 86.7 used to be, now displays NaN, as in not a number, beacsue we voided their scores to not contaminate the data with potential academic fruad.  
 
@@ -50,26 +53,26 @@ However, the average scores categorized by each school's spending budget, size, 
    - **School Spending and Budget**
     *THS is in the $630-649 category*
      - Original School Budget per Student 
-       ![original_spending](https://user-images.githubusercontent.com/94569240/149582404-8bbdabdf-6808-40b5-ac91-d4cbdee296ea.PNG)
+     ![original_spending](https://user-images.githubusercontent.com/94569240/149582404-8bbdabdf-6808-40b5-ac91-d4cbdee296ea.PNG)
 
      - New School Budget per Student 
-       ![new_spending](https://user-images.githubusercontent.com/94569240/149582417-3159bbbf-3cea-498f-ae2a-ba1b66ca8eb2.PNG)
+     ![new_spending](https://user-images.githubusercontent.com/94569240/149582417-3159bbbf-3cea-498f-ae2a-ba1b66ca8eb2.PNG)
 
    - **School Size**
       *THS is in the Medium Size category*
      - Original School Size
-      ![original_size](https://user-images.githubusercontent.com/94569240/149582501-f19b7339-73d1-436d-bc51-15d7d2e0bffc.PNG)
+     ![original_size](https://user-images.githubusercontent.com/94569240/149582501-f19b7339-73d1-436d-bc51-15d7d2e0bffc.PNG)
 
      - New School Size
-      ![new_size](https://user-images.githubusercontent.com/94569240/149582514-2a7b8bd7-df29-4298-92f2-7fbf760bcc64.PNG)
+     ![new_size](https://user-images.githubusercontent.com/94569240/149582514-2a7b8bd7-df29-4298-92f2-7fbf760bcc64.PNG)
 
    - **School Type**
     *THS is in the Charter category*
      - Original School Type
-       ![original_type](https://user-images.githubusercontent.com/94569240/149582534-e1a10407-3850-4aa5-844a-7e88fd42dcca.PNG)
+     ![original_type](https://user-images.githubusercontent.com/94569240/149582534-e1a10407-3850-4aa5-844a-7e88fd42dcca.PNG)
 
      - New School Type  
-       ![new_type](https://user-images.githubusercontent.com/94569240/149582523-d2a222bd-b162-4414-8ba4-17b89bcd30ff.PNG)
+    ![new_type](https://user-images.githubusercontent.com/94569240/149582523-d2a222bd-b162-4414-8ba4-17b89bcd30ff.PNG)
 
 ## Summary 
 In the end, while omitting 461 students from our data didn't have an incredibly significant impact on our findings, there are a few changes we can see when looking at our summary data frames.  Four of these changes are listed below: 
